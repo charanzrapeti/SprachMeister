@@ -1,0 +1,63 @@
+/* LandingPage.css */
+
+.landing-page {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Bebas Neue', sans-serif; /* Apply custom font */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .content {
+    width: 35%; /* Set content width to 40% */
+    display: flex; /* Align children horizontally */
+    flex-direction: column; /* Align text vertically */
+  
+    
+  }
+  .graphic-container {
+    width: 50%; /* Set graphic-container width to 60% */
+    display: flex; /* Align children horizontally */
+    justify-content: flex-end; /* Align graphic to the right */
+   
+  }
+  
+  .graphic {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .title {
+    font-size: 148px; /* Adjust font size */
+    line-height: 1.2; /* Adjust line height */
+  }
+  
+  .title span:last-child {
+    margin-left: 25%;
+    color: blue; /* Make the color of the second span (Meister) blue */
+  }
+
+  .sub-content {
+    width: 100%;
+    font-size: 75px;
+    text-align: center; /* Center the text */
+    font-family: 'Jersey 10 Charted', sans-serif; /* Apply custom font */
+  }
+
+  .blue-background {
+    background-color: blue;
+    color: white; /* Set text color to white for better visibility */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
