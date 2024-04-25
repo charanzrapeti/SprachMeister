@@ -1,0 +1,58 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.firstContainer {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  margin: 20px; /* Adjust margin as needed */
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-left: 30%;
+  margin-right: 30%;
+ 
+  
+}
+
+.slider {
+  margin-right: 5%;
+}
+
+.progress1, .progress2, .progress3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.progress {
+  flex:4;
+  margin-right: 5%;
+}
+.accuracy {
+  flex:1;
+}
+
+.dashboardTitle {
+  align-self: center;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add additional styling for your components as needed */
